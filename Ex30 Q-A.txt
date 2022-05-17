@@ -1,0 +1,22 @@
+	Exercise 30 study drill Questions and Answers
+
+Q1. Try to guess what elsif and else are doing.
+
+  Ans First the condition for ‘if’ is evaluated,if it is true then the code inside if block gets executed.
+      (Immediately it reachthe end of statement by skipping other elsif statements)  
+      If it is false, the next condition ‘elseif’ is evaluated, if that is true then the code inside if block 
+      gets executed. 
+      If both the two conditions gets failed, then the block under ‘else’ will get executed.
+
+Q2. Change the numbers of cars, people, and trucks and then trace through each if-statement to see 
+    what will be printed.
+
+  Ans If we change cars = 10, people = 20, trucks = 30, 
+      then cars < people will be true, 
+           trucks > cars will be true, and 
+           people < trucks will be false. 
+      Therefore, line 10, line 25, and line 44 will gets executed and the according statements will
+      gets printed.
+
+
+

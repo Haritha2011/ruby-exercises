@@ -1,0 +1,48 @@
+		Exercise 6 Questions and answers
+
+Q2. Find all the places where a string is put inside a string.
+
+	types_of_people = 10
+	x = "There are #{types_of_people} types of people."
+	binary = "binary"
+	do_not = "don't"
+	y = "Those who know #{binary} and those who #{do_not}."  // Line 1 @2places
+
+	puts x
+	puts y
+
+	puts "I said: #{x}."					// Line 2
+	puts "I also said: '#{y}'."				// Line 3
+
+	hilarious = false
+	joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
+
+	puts joke_evaluation
+
+	w = "This is the left side of..."
+	e = "a string with a right side."
+
+	puts w + e
+
+  Ans : In 4 places, a string is put insided an another string.
+
+
+Q3. Are you sure there are only four places? How do you know? Maybe I like lying.
+
+  Ans : Sure, it's in four places only.
+
+
+Q4. Explain why adding the two strings w and e with + makes a longer string.
+
+  Ans : '+' operator in string is used as an concatenation operator. It means the second string is added
+	to the first string and thus makes a new string which seems to be a longer string.
+
+
+Q5. What happens when you change the strings to use ' (single-quote) instead of " (double-quote)? 
+    Do they still work? Try to guess why.
+
+  Ans : Single quotes and double quotes both were used to store string values.
+	Using in variables if we change it works as such.
+
+	Single quotes doesn't holds any escape characters, but double quotes can hold.
+	Single quotes cannot work with string interpolation, but double quotes can work with string interpolation.
